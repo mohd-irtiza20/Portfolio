@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <!-------------------------------- Header ------------------------------------------------->
+
+  <header>
+    <div class="logo">
+      <span class="logoOne">&lt;Mohd</span> <span class="logoTwo">Irtiza</span><span class="logoThree">/&gt;</span>
+    </div>
+
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <ul class="head-menu">
+      <li><a class="menu-a" href="#home" onclick="toggleMenu();">Home</a></li>
+      <li><a class="menu-a" href="#about" onclick="toggleMenu();">About</a></li>
+      <li><a class="menu-a" href="#skills" onclick="toggleMenu();">Skills</a></li>
+      <li><a class="menu-a" href="#services" onclick="toggleMenu();">Services</a></li>
+      <li><a class="menu-a" href="#projects" onclick="toggleMenu();">Project</a></li>
+      <li><a class="menu-a" href="#contact" onclick="toggleMenu();">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-------------------------------- Home ------------------------------------------------->
+
+  <section class="home" id="home">
+    <div class="text">
+      <h2>
+        <span class="hello">Hi, I'm</span> <br>
+        <span class="name">Mohd Irtiza,</span>
+      </h2>
+      <h3>A Passionate <span id="new" class="dev"> &lt;Developer/> </span></h3>
+      <a class="h-btn" href="/Resume/Mohd Irtiza Resume.pdf" target="_blank">Resume</a>
+    </div>
+  </section>
+
+  <!-------------------------------- About ------------------------------------------------->
+
+  <section class="about" id="about">
+    <h2 class="heading">About Me</h2>
+    <hr>
+    <div class="about-container">
+      <div class="about-content">
+        <h3>I'm a Frontend Developer !</h3>
+        <p class="about-detail">
+          Hi, I'm Mohd Irtiza, a passionate software developer from Srinagar, Jammu and Kashmir. With a strong
+          foundation in computer science and hands-on experience in front-end development, I specialize in creating
+          responsive and user-friendly web applications. I have developed several projects that showcase my skills and
+          dedication. I am eager to leverage my expertise to contribute to innovative projects and build impactful
+          software solutions. Let's connect and create something amazing together!
+        </p>
+        <div class="details-container">
+          <div class="details"><span class="info-m">Name: </span> <span class="info"> &nbsp;Mohd Irtiza</span></div>
+          <div class="details"><span class="info-m">Birthday:</span> <span class="info"> &nbsp;21 July 2002</span></div>
+          <div class="details"><span class="info-m">Degree:</span> <span class="info">&nbsp;B.Tech-CSE</span></div>
+          <div class="details"><span class="info-m">Experience:</span> <span class="info">&nbsp;Fresher</span></div>
+          <div class="details"><span class="info-m">Phone:</span> <span class="info">&nbsp;+917889329197</span></div>
+          <div class="details"><span class="info-m">Address:</span> <span class="info">&nbsp;Srinagar,J&K</span></div>
+          <div class="details"><span class="info-m">Email:</span> <span class="info">&nbsp;mohdirtiza20@gmail.com</span>
+          </div>
+
+        </div>
+      </div>
+      <div class="about-img">
+        <img src="/Images/my-img.png" alt="Picture of Mohd Irtiza">
+      </div>
+    </div>
+    <!---------------- Connect ---------------->
+    <div class="connect">
+      <h3 class="social-heading">Connect With Me</h3>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/mohdirtiza20/" target="_blank"><i class="fa fa-linkedin"
+            aria-hidden="true"></i> </a>
+        <a href="https://github.com/mohd-irtiza20" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> </a>
+        <a href="https://twitter.com/MohdIrtiza20" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
+        <a href="https://www.instagram.com/mohammad.irtiza.313/?igsh=MWplaGs2YzdvcDVlOQ%3D%3D" target="_blank"><i
+            class="fa fa-instagram" aria-hidden="true"></i> </a>
+        <a href="https://wa.me/7889329197?text=" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i> </a>
+      </div>
+    </div>
+  </section>
+
+  <!-------------------------------- Skill ------------------------------------------------->
+
+  <section class="skills" id="skills">
+    <h2 class="heading">&lt; Skills &gt;</h2>
+    <hr>
+    <div class="skills-container">
+
+      <!-- Skill-1 -->
+      <div class="skills-card">
+        <img src="Images/c++.png" class="skills-img" alt="">
+      </div>
+
+      <!-- Skill-2 -->
+      <div class="skills-card">
+        <img src="Images/html.png" class="skills-img" alt="">
+      </div>
+
+      <!-- Skill-3 -->
+      <div class="skills-card">
+        <img src="Images/css.png" class="skills-img" alt="">
+      </div>
+
+      <!-- Skill-4 -->
+      <div class="skills-card">
+        <img src="Images/javascript.png" class="skills-img" alt="">
+      </div>
+
+      <!-- Skill-5 -->
+      <div class="skills-card">
+        <img src="Images/bootstrap.png" class="skills-img" alt="">
+      </div>
+
+      <!-- Skill-6 -->
+      <div class="skills-card">
+        <img src="Images/wordpress.png" class="skills-img" alt="">
+      </div>
+
+      <!-- Skill-7 -->
+      <div class="skills-card">
+        <img src="Images/github.png" class="skills-img" alt="">
+      </div>
+
+      <!-- Skill-8 -->
+      <div class="skills-card">
+        <img src="Images/git.png" class="skills-img" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-------------------------------- Services ------------------------------------------------->
+
+  <section class="services" id="services">
+    <h2 class="heading">Services</span></h2>
+    <hr>
+    <div class="servicebox">
+
+      <!-- Service-1 -->
+      <div class="card">
+        <img class="service-img" src="Images/web design.png" alt="">
+        <h3 class="service-name">Web Design </h3>
+        <p>
+          Creating visually appealing and user-friendly web designs that enhance user experience.
+        </p>
+      </div>
+
+      <!-- Service-2 -->
+      <div class="card">
+        <img class="service-img" src="Images/web-tmplate.png" alt="">
+        <h3 class="service-name">Web Developement </h3>
+        <p>
+          Building responsive and high-performance websites using the latest technologies.
+        </p>
+        </p>
+      </div>
+
+      <!-- Service-3 -->
+      <div class="card">
+        <img class="service-img" src="Images/graphics-design.png" alt="">
+        <h3 class="service-name">Graphic Design</h3>
+        <p>
+          Creating visually appealing graphics, logos, and branding materials for organizations.
+        </p>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-------------------------------- Project ------------------------------------------------->
+
+  <section class="projects" id="projects">
+    <h2 class="heading"> Projects </h2>
+    <p class="subhead">Showcasing my journey through <span class="span">&lt;code&gt;</span> and creativity
+    </p>
+    <hr>
+
+    <!-- Project-1 -->
+    <div class="project-container">
+      <div class="project-cont">
+        <div class="project-subcont">
+
+          <img src="/Images/proj-1.png" alt="">
+          <h3>Gym Website</h3>
+          <p>
+            <span class="project-span">HTML</span>
+            <span class="project-span">CSS</span>
+          </p>
+
+          <div class="project-link">
+            <a href="https://github.com/mohd-irtiza20/Gym-Website" class="btn" target="_blank"> View Code <i
+                class="fa fa-github"></i></a>
+            <a href="https://mi-gym-project.netlify.app/" class="btn-p" target="_blank"> View Project <i
+                class="fas fa-eye"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project-2 -->
+      <div class="project-cont">
+        <div class="project-subcont">
+
+          <img src="Images/proj-2.jpg" alt="">
+          <h3>E-Learning Website</h3>
+          <p>
+            <span class="project-span">Bootstrap</span>
+          </p>
+
+          <div class="project-link">
+            <a href="https://github.com/mohd-irtiza20/E-Learning-Website" class="btn" target="_blank"> View Code <i
+                class="fa fa-github"></i></a>
+            <a href="https://codelearnings.netlify.app/" class="btn-p" target="_blank"> View Project <i
+                class="fas fa-eye"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project-3 -->
+      <div class="project-cont">
+        <div class="project-subcont">
+          <img src="Images/proj-3.png" alt="">
+
+          <h3> Weather App</h3>
+          <p>
+            <span class="project-span">HTML</span>
+            <span class="project-span">CSS</span>
+            <span class="project-span">JavaScript</span>
+          </p>
+
+          <div class="project-link">
+            <a href="https://github.com/mohd-irtiza20/Weather-App" class="btn" target="_blank"> View Code <i
+                class="fa fa-github"></i></a>
+            <a href="https://mi-weatherapp.netlify.app/" class="btn-p" target="_blank"> View Project <i
+                class="fas fa-eye"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project-4 -->
+      <div class="project-cont">
+        <div class="project-subcont">
+          <img src="Images/proj-4.jpg" alt="">
+
+          <h3>GitHub Explorer</h3>
+          <p>
+            <span class="project-span">HTML</span>
+            <span class="project-span">CSS</span>
+            <span class="project-span">JavaScript</span>
+          </p>
+          <div class="project-link">
+            <a href="https://github.com/mohd-irtiza20/GitHub-Profile-Finder" class="project-btn" target="_blank"> View
+              Code <i class="fa fa-github"></i></a>
+            <a href="https://mohdirtiza-github-profile-finder.netlify.app/" class="btn-p" target="_blank"> View Project
+              <i class="fas fa-eye"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------------------------------- Contact Us ------------------------------------------------->
+
+  <section class="contact" id="contact">
+    <h2 class="heading"> Contact </h2>
+    <p class="subhead"><span> Let's discuss something together </span><span class="span">cool</span></p>
+    <hr>
+
+    <div class="contact-main">
+      <div class="contact-info">
+        <h3>Contact Info</h3>
+
+        <div class="contact-container">
+
+          <!-- Address -->
+          <div class="contact-box">
+            <div class="icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="text">
+              <h3>Srinagar, Jammu and Kashmir</h3>
+            </div>
+          </div>
+
+          <!-- Phone -->
+          <div class="contact-box">
+            <div class="icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="text">
+              <h3>+91 7889329197</h3>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="contact-box">
+            <div class="icon">
+              <i class="far fa-envelope"></i>
+            </div>
+            <div class="text">
+              <h3><a href="mailto:mohdirtiza20@gmail.com">mohdirtiza20@gmail.com</a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------- Form ---------------------->
+
+      <div class="form-container">
+        <form name="contact" method="POST" data-netlify="true">
+          <h3>Write to us</h3>
+          <input type="text" id="text" placeholder="Name" name="name" required />
+          <input type="email" id="email" placeholder="Email" name="email" required />
+          <textarea name="message" id="" cols="25" rows="10" placeholder="Your Message" required></textarea>
+          <input type="hidden" name="form-name" value="contact" />
+          <input type="submit" id="submit" value="Send" />
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!--------------------------------------- Footer ------------------------------------------------->
+
+  <footer class="copyright">
+    <p>&copy; Developed by <span class="span">Mohd Irtiza</span>. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
